@@ -4,5 +4,5 @@ Route::get('test', function () {
 });
 
 Route::get('view', function () {
-    return view('grittekno.menu::index');
+    return view('grittekno.test::index');
 });
