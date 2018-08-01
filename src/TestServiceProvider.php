@@ -15,7 +15,7 @@ class TestServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'grittekno.test');
 
         $this->publishes([
-            __DIR__ . '/views' => base_path('resources/views/vendor/websanova-demo'),
+            __DIR__ . '/migrations' => base_path('database/migrations'),
         ]);
     }
 
